@@ -1,0 +1,32 @@
+
+.imglogo {
+
+    width: 145px;
+    height: 47px;
+
+}
+
+.nav_lien {
+
+    font-size: 14px;
+
+}
+
+  @media(max-width : 600px){
+
+
+    .imglogo {
+
+     width: 50%;
+     height: auto; 
+
+   }
+
+   .nav_lien {
+
+    font-size: 10px;
+
+  }
+
+    
+  }

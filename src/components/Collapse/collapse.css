@@ -1,0 +1,93 @@
+.box-collapse{
+ 
+  font-family: Montserrat;
+  color:white;
+  font-size: 12px;
+  padding-top: 5px;
+  width: 100%;
+
+}
+
+.section-title-collapse{
+  display:flex;
+  justify-content:space-between;
+  background-color : #FF6060;
+  border-radius : 5px;
+
+}
+
+.contenu_txt{
+  margin-top: 9px;
+  margin-left: 15px;
+  font-weight:100;
+ 
+}
+
+//button chevron
+
+button .open{
+  rotate: 0deg;
+  height:auto;
+  opacity: 1; 
+  display:block;
+    
+}
+
+button{
+  background-color: #FF6060;
+  border-style : none;
+  border-radius: 5px;
+
+}
+
+#content-collapse{
+  background-color: #F6F6F6;
+  color: #FF6060;
+  padding: 15px;
+  list-style-type: none;
+  border-radius: 5px 5px;
+  
+}
+
+.close{
+   rotate: 180deg;
+   height: auto; 
+   background-color:  rgba(0,0,0,0.0); 
+   border-style:none;
+}
+
+.hide {
+    rotate: 0deg;
+    height:auto;
+    display: none;
+}
+
+@media screen and (min-width: 1200px){
+
+.box-collapse{
+  font-family: Montserrat;
+  color:white;
+  font-size: 13px;
+  padding-top: 0px;
+  min-width: auto;
+  margin-bottom: 30px;
+
+}
+  
+.collapse-part{
+  display: grid;
+  gap: 44px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+   
+}
+
+.flat-description{
+   margin-left: 200px;
+   margin-right: 200px;
+}
+  
+
+}
+
+
